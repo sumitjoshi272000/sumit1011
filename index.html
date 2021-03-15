@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script>
+		function switchcolor(){
+	var block1=document.getElementById("div1").style.backgroundColor;
+	var block2=document.getElementById("div2").style.backgroundColor;
+	document.getElementById("div1").style.backgroundColor=block2;
+	document.getElementById("div2").style.backgroundColor=block1;
+}
+	</script>
+	<title>Swap Color</title>
+</head>
+<body>
+	<center><div>
+<div id="div1" style="background-color: blueviolet ; height:100px; width:150px ; color: white">DIV 1</div>
+<div id="div2" style="background-color: palevioletred ; height:100px; width:150px ; color: white">DIV 2</div>
+</div>
+<button onclick="switchcolor()">Swap</button>
+</center>
+</body>
+</html>
